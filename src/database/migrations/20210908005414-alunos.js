@@ -40,5 +40,5 @@ module.exports = {
     },
   }),
 
-  down: async (queryInterface) => queryInterface.createTable('alunos'),
+  down: async (queryInterface) => queryInterface.dropTable('alunos'),
 };
